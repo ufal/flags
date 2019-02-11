@@ -63,9 +63,19 @@ system('montage '.join(' ',@input_files).' -tile '.$cols.'x -background none -mo
 my $fh;
 open($fh, '>', Cwd::abs_path($less_file));
 
+print $fh "\n// AUTOMATICALLY GENERATED ".localtime()."\n\n";
+
+
+
+print $fh join(", \n",grep {$_} map {$_->{lcode} ? '.lang.'.$_->{lcode} : ''} values %$config );
+print $fh "{background-image:url('./language-icons.png');background-repeat:no-repeat}\n\n";
+
 for my $lang_conf (values %$config) {
   print $fh '.lang.'.($lang_conf->{lcode}//'empty').' {background-position:'.$lang_conf->{x}.'px '.$lang_conf->{y}.'px;width:'.$lang_conf->{w}.'px;height:'.$lang_conf->{h}.'px;}',"\n";
 }
+
+
+
 
 close $fh;
 
