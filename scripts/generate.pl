@@ -14,6 +14,10 @@ my $cols = 15;
 my ($config_file, $image_dir, $icon_file, $less_file);
 my @input_files;
 
+my $table_fh;
+open($table_fh, '>', Cwd::abs_path('README.md'));
+my $table = Text::MarkdownTable->new(file=>$table_fh);
+
 GetOptions('yaml|y=s' => sub { shift; $config_file = shift },
            'icon_file|I=s' => sub { shift; $icon_file = shift },
            'less_file|I=s' => sub { shift; $less_file = shift },
@@ -56,16 +60,15 @@ for my $lang (@language_list){
     $act_x += $w;
   }
 
+  $table->add({flag=>"<img src='flags/png/$img' height='20px' />", language=>$lang, code=>$lang_conf->{lcode}});
 }
+
 
 system('montage '.join(' ',@input_files).' -tile '.$cols.'x -background none -mode concatenate '.Cwd::abs_path($icon_file));
 
 my $fh;
 open($fh, '>', Cwd::abs_path($less_file));
-
 print $fh "\n// AUTOMATICALLY GENERATED ".localtime()."\n\n";
-
-
 
 print $fh join(", \n",grep {$_} map {$_->{lcode} ? '.lang.'.$_->{lcode} : ''} values %$config );
 print $fh "{background-image:url('./language-icons.png');background-repeat:no-repeat}\n\n";
@@ -74,8 +77,10 @@ for my $lang_conf (values %$config) {
   print $fh '.lang.'.($lang_conf->{lcode}//'empty').' {background-position:'.$lang_conf->{x}.'px '.$lang_conf->{y}.'px;width:'.$lang_conf->{w}.'px;height:'.$lang_conf->{h}.'px;}',"\n";
 }
 
-
-
-
 close $fh;
+
+print $table_fh "# Current flags\n\n";
+$table->done;
+close $table_fh;
+
 
