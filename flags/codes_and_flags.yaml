@@ -321,6 +321,10 @@ Kyrgyz:
   lcode: ky
   iso3: kir
   family: Turkic, Northwestern
+Lao:
+  flag: LA
+  lcode: lo
+  iso3: lao
 Latin:
   flag: VA
   lcode: la
@@ -336,6 +340,22 @@ Lithuanian:
   lcode: lt
   iso3: lit
   family: IE, Baltic
+"Lower Sorbian":
+  flag: SORB
+  lcode: dsb
+  iso3: dsb
+Luxembourgish:
+  flag: LU
+  lcode: lb
+  iso3: ltz
+Macedonian:
+  flag: MK
+  lcode: mk
+  iso3: mkd
+Malayalam:
+  flag: IN
+  lcode: ml
+  iso3: mal
 Maltese:
   flag: MT
   lcode: mt
@@ -346,11 +366,19 @@ Marathi:
   lcode: mr
   iso3: mar
   family: IE, Indic
+Mongolian:
+  flag: MN
+  lcode: mn
+  iso3: mon
 Naija:
   flag: NG
   lcode: pcm
   iso3: pcm
   family: Creole
+Nepali:
+  flag: NP
+  lcode: ne
+  iso3: nep
 North Sami:
   flag: SAMI
   lcode: sme
@@ -361,6 +389,14 @@ Norwegian:
   lcode: 'no'
   iso3: nor
   family: IE, Germanic
+Nynorsk:
+  flag: 'NO'
+  lcode: nn
+  iso3: mno
+Occitan:
+  flag: ES-CT
+  lcode: oc
+  iso3: oci
 Old Church Slavonic:
   flag: MORAVA
   lcode: cu
@@ -371,6 +407,18 @@ Old French:
   lcode: fro
   iso3: fro
   family: IE, Romance
+Oriya:
+  flag: IN
+  lcode: or
+  iso3: ori
+Ossetic:
+  flag: RU-SE
+  lcode: os
+  iso3: oss
+Pashto:
+  flag: AF
+  lcode: ps
+  iso3: pus
 Persian:
   flag: IR
   lcode: fa
@@ -391,6 +439,10 @@ Portuguese:
   lcode: pt
   iso3: por
   family: IE, Romance
+Punjabi:
+  flag: PK
+  lcode: pa
+  iso3: pan
 Romanian:
   flag: RO
   lcode: ro
@@ -401,6 +453,10 @@ Romansh:
   lcode: rm
   iso3: roh
   family: IE, Romance
+Romani:
+  flag: RMN
+  lcode: rmn
+  iso3: tmn
 Russian:
   flag: RU
   lcode: ru
@@ -411,6 +467,14 @@ Sanskrit:
   lcode: sa
   iso3: san
   family: IE, Indic
+Sardinian:
+  flag: IT-88
+  lcode: sc
+  iso3: srd
+Scottish:
+  flag: GB-SCT
+  lcode: gd
+  iso3: sco
 Serbian:
   flag: RS
   lcode: sr
@@ -451,6 +515,10 @@ Spanish:
   lcode: es
   iso3: spa
   family: IE, Romance
+Swahili:
+  flag: TZ
+  lcode: sw
+  iso3: swa
 Swedish:
   flag: SE
   lcode: sv
@@ -465,11 +533,19 @@ Tagalog:
   lcode: tl
   iso3: tgl
   family: Austronesian, Central Philippine
+Tajiki:
+  flag: TJ
+  lcode: tg
+  iso3: tgk
 Tamil:
   flag: IN
   lcode: ta
   iso3: tam
   family: Dravidian, Southern
+Tatar:
+  flag: RU-TA
+  lcode: tt
+  iso3: tat
 Telugu:
   flag: IN
   lcode: te
@@ -480,11 +556,19 @@ Thai:
   lcode: th
   iso3: tha
   family: Tai-Kadai
+Tibetan:
+  flag: TIB
+  lcode: bo
+  iso3: bod
 Turkish:
   flag: TR
   lcode: tr
   iso3: tur
   family: Turkic, Southwestern
+Turkmen:
+  flag: TM
+  lcode: tk
+  iso3: tuk
 Ukrainian:
   flag: UA
   lcode: uk
@@ -505,6 +589,10 @@ Uyghur:
   lcode: ug
   iso3: uig
   family: Turkic, Southeastern
+Uzbek:
+  flag: UZ
+  lcode: uz
+  iso3: uzb
 Vietnamese:
   flag: VN
   lcode: vi
@@ -525,6 +613,14 @@ Wolof:
   lcode: wo
   iso3: wol
   family: Niger-Congo, Northern Atlantic
+Yakut:
+  flag: RU-SA
+  lcode: sah
+  iso3: sah
+Yiddish:
+  flag: IL
+  lcode: yi
+  iso3: yid
 Yoruba:
   flag: NG
   lcode: yo
