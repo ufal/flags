@@ -1,3 +1,7 @@
+Abkhaz:
+  flag: AB
+  lcode: ab
+  iso3: abk
 Afrikaans:
   flag: ZA
   lcode: af
@@ -8,6 +12,11 @@ Akkadian:
   lcode: akk
   iso3: akk
   family: Afro-Asiatic, Semitic
+Albanian:
+  flag: AL
+  lcode: sq
+  iso3: sqi
+  family: IE
 Amharic:
   flag: ET
   lcode: am
@@ -28,11 +37,25 @@ Armenian:
   lcode: hy
   iso3: hye
   family: IE, Armenian
+Assamese:
+  flag: IN
+  lcode: as
+  iso3: asm
+Azeri:
+  flag: AZ
+  lcode: az
+  iso3: aze
+  family: Turkic
 Bambara:
   flag: ML
   lcode: bm
   iso3: bam
   family: Mande
+Bashkir:
+  flag: RU-BA
+  lcode: ba
+  iso3: bak
+  family: Turkic
 Basque:
   flag: ES-PV
   lcode: eu
@@ -63,6 +86,10 @@ Bulgarian:
   lcode: bg
   iso3: bul
   family: IE, Slavic
+Burmese:
+  flag: MM
+  lcode: my
+  iso3: mya
 Buryat:
   flag: RU-BU
   lcode: bxr
@@ -78,11 +105,20 @@ Catalan:
   lcode: ca
   iso3: cat
   family: IE, Romance
+Chechen:
+  flag: RU-CE
+  lcode: ce
+  iso3: che
 Chinese:
   flag: CN
   lcode: zh
   iso3: cmn
   family: Sino-Tibetan
+Chuvash:
+  flag: RU-CU
+  lcode: cv
+  iso3: chv
+  family: Turkic
 Classical Chinese:
   flag: CN-QING
   lcode: lzh
@@ -93,6 +129,10 @@ Coptic:
   lcode: cop
   iso3: cop
   family: Afro-Asiatic, Egyptian
+Corsican:
+  flag: FR-CO
+  lcode: co
+  iso3: cos
 Croatian:
   flag: HR
   lcode: hr
@@ -128,6 +168,10 @@ Erzya:
   lcode: myv
   iso3: myv
   family: Uralic, Mordvin
+Esperanto:
+  flag: EO
+  lcode: eo
+  iso3: epo
 Estonian:
   flag: EE
   lcode: et
@@ -148,6 +192,10 @@ French:
   lcode: fr
   iso3: fra
   family: IE, Romance
+Frisian:
+  flag: GE
+  lcode: fy
+  iso3: fry
 Galician:
   flag: ES-GA
   lcode: gl
@@ -173,6 +221,14 @@ Greek:
   lcode: el
   iso3: ell
   family: IE, Greek
+Gujarati:
+  flag: IN
+  lcode: gu
+  iso3: guj
+Hakka:
+  flag: TW
+  lcode: hak
+  iso3: hak
 Hebrew:
   flag: IL
   lcode: he
@@ -193,6 +249,11 @@ Hungarian:
   lcode: hu
   iso3: hun
   family: Uralic, Ugric
+Icelandic:
+  flag: IS
+  lcode: is
+  iso3: isl
+  family: IE
 Indonesian:
   flag: ID
   lcode: id
@@ -213,16 +274,33 @@ Japanese:
   lcode: ja
   iso3: jpn
   family: Japanese
+Kalmyk:
+  flag: RU-KL
+  lcode: xal
+  iso3: xal
+  family: Mongolic
 Kannada:
   flag: IN
   lcode: kn
   iso3: kan
   family: Dravidian, Southern
+Karakalpak:
+  flag: UZ-QR
+  lcode: kaa
+  iso3: kaa
+Kashmiri:
+  flag: IN
+  lcode: ks
+  iso3: kas
 Kazakh:
   flag: KZ
   lcode: kk
   iso3: kaz
   family: Turkic, Northwestern
+Khmer:
+  flag: KH
+  lcode: km
+  iso3: khm
 Komi Zyrian:
   flag: RU-KO
   lcode: kpv
